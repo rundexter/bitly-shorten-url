@@ -2,25 +2,38 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "longUrl",
+            "title": "URL"
+        },
+        {
+            "id": "domain",
+            "title": "Domain"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "new_hash",
+            "title": "New Hash"
+        },
+        {
+            "id": "url",
+            "title": "Bitlink"
+        },
+        {
+            "id": "hash",
+            "title": "Hash"
+        },
+        {
+            "id": "global_hash",
+            "title": "Bitly ID"
+        },
+        {
+            "id": "long_url",
+            "title": "Original URL"
         }
-      */
     ],
-    "title": "Bitly: Shorten URL" /* Required.A display name for the module */
+    "icon": "dex-bitly",
+    "title": "Bitly: Shorten URL"
 }
