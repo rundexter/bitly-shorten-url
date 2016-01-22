@@ -12,6 +12,7 @@
             "title": "Domain"
         }
     ],
+
     "outputs": [
         {
             "id": "new_hash",
@@ -34,6 +35,9 @@
             "title": "Original URL"
         }
     ],
+    "providers": [{
+        "name": "bitly"
+    }],
     "icon": "dex-bitly",
     "title": "Bitly: Shorten URL"
 }
